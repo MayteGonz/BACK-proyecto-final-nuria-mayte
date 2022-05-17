@@ -16,14 +16,15 @@
       "type": "string"
     },
     "foto": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "descripcion": {
       "type": "text"
@@ -38,6 +39,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
+    },
+    "categorias": {
+      "type": "json"
     }
   }
 }
