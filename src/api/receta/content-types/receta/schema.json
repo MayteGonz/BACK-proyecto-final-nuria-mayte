@@ -15,17 +15,6 @@
     "titulo": {
       "type": "string"
     },
-    "foto": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "descripcion": {
       "type": "text"
     },
@@ -42,6 +31,9 @@
     },
     "categorias": {
       "type": "json"
+    },
+    "foto": {
+      "type": "string"
     }
   }
 }
