@@ -16,7 +16,7 @@
       "type": "string"
     },
     "cantidad": {
-      "type": "biginteger"
+      "type": "decimal"
     },
     "receta": {
       "type": "relation",
@@ -31,13 +31,17 @@
         "ml",
         "L",
         "kg",
-        "cucharadas",
-        "cucharaditas",
+        "c/s",
+        "c/c",
         "pizca",
         "taza",
         "lonchas",
         "unidades",
-        "unidad"
+        "unidad",
+        "diente",
+        "dientes",
+        "rebanada",
+        "rebanadas"
       ]
     }
   }
