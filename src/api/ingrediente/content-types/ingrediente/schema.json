@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ingrediente",
     "pluralName": "ingredientes",
-    "displayName": "ingrediente"
+    "displayName": "ingrediente",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,19 @@
       "relation": "manyToOne",
       "target": "api::receta.receta",
       "inversedBy": "ingredientes"
+    },
+    "Unidades": {
+      "type": "enumeration",
+      "enum": [
+        "gr",
+        "ml",
+        "L",
+        "kg",
+        "cucharadas",
+        "cucharaditas",
+        "pizca",
+        "taza"
+      ]
     }
   }
 }
