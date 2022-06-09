@@ -29,9 +29,6 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
     },
-    "categorias": {
-      "type": "json"
-    },
     "foto": {
       "type": "string"
     }
