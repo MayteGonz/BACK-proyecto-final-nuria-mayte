@@ -68,6 +68,12 @@
     },
     "surname": {
       "type": "string"
+    },
+    "recetas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::receta.receta",
+      "mappedBy": "user"
     }
   }
 }
